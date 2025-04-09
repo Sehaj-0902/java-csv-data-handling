@@ -1,4 +1,4 @@
-package com.bridgelabz.intermediateproblems.modifyfile.employee_salary;
+package com.bridgelabz.intermediateproblems.modifyfile;
 
 import com.opencsv.CSVReader;
 import com.opencsv.CSVWriter;
@@ -12,8 +12,8 @@ import java.util.List;
 
 public class ModifyRecordsCSV {
     public static void main(String[] args) {
-        String inputFilePath = "C:\\Users\\DELL\\Desktop\\bridgelabz-workspace\\java-csv-data-handling\\src\\main\\java\\com\\bridgelabz\\intermediateproblems\\modifyfile\\employee_salary\\employee_salary.csv";
-        String outputFilePath = "C:\\Users\\DELL\\Desktop\\bridgelabz-workspace\\java-csv-data-handling\\src\\main\\java\\com\\bridgelabz\\intermediateproblems\\modifyfile\\employee_salary\\updated_employee_salary.csv";
+        String inputFilePath = "C:\\Users\\DELL\\Desktop\\bridgelabz-workspace\\java-csv-data-handling\\src\\main\\java\\com\\bridgelabz\\intermediateproblems\\modifyfile\\employee_salary.csv";
+        String outputFilePath = "C:\\Users\\DELL\\Desktop\\bridgelabz-workspace\\java-csv-data-handling\\src\\main\\java\\com\\bridgelabz\\intermediateproblems\\modifyfile\\updated_employee_salary.csv";
         String department = "IT";
 
         List<String[]> updatedRecords = new ArrayList<>();
